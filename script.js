@@ -240,7 +240,7 @@ function evaluateBlackjack(numPlayers) {
       document.getElementById(`deck${p}`).innerHTML = "";
     }
     resultDiv.textContent = "";
-  }, 40000);
+  }, 5000);
 }
 function createBlackjackLayout(numPlayers) {
   const container = document.getElementById("blackjack-game");
@@ -256,3 +256,4 @@ function createBlackjackLayout(numPlayers) {
     `;
   }
 }
+
